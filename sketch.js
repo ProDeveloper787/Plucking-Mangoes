@@ -11,7 +11,7 @@ var world,boy;
 var launchingForce=100;
 
 function preload(){
-	boy=loadImage("images/boy.png");
+	boy=loadImage("boy.png");
   }
 
 function setup() {
@@ -49,7 +49,7 @@ function draw() {
   //frameRate(2)
  // Engine.update(engine)
   textSize(25);
-  text("Press Space to get a second Chance to Play!!",50 ,50);
+  text("Press Space to get a second Chance to Play!",50 ,50);
   image(boy ,200,340,200,300);
   //Engine.update(engine)
   
